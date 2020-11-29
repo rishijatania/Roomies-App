@@ -1,0 +1,596 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		503301F4244E589B007B9789 /* GroupTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 503301F3244E589B007B9789 /* GroupTaskViewController.swift */; };
+		503301F9244E6476007B9789 /* GroupTaskTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 503301F7244E6476007B9789 /* GroupTaskTableViewCell.swift */; };
+		503301FA244E6476007B9789 /* GroupTaskTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 503301F8244E6476007B9789 /* GroupTaskTableViewCell.xib */; };
+		50330200244E77F6007B9789 /* Singleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 503301FE244E77F6007B9789 /* Singleton.swift */; };
+		50330201244E77F6007B9789 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 503301FF244E77F6007B9789 /* Utils.swift */; };
+		50330211244E78A1007B9789 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50330210244E78A1007B9789 /* SignUpViewController.swift */; };
+		50330214244EA509007B9789 /* UserProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50330213244EA509007B9789 /* UserProfileViewController.swift */; };
+		50330216244EB25C007B9789 /* LoginNavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50330215244EB25C007B9789 /* LoginNavigationViewController.swift */; };
+		50330219244F452A007B9789 /* GroupInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50330218244F452A007B9789 /* GroupInfoViewController.swift */; };
+		5033021C244F69FE007B9789 /* ItemInfoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5033021A244F69FE007B9789 /* ItemInfoTableViewCell.swift */; };
+		5033021D244F69FE007B9789 /* ItemInfoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5033021B244F69FE007B9789 /* ItemInfoTableViewCell.xib */; };
+		50330221244F8DE2007B9789 /* UserTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50330220244F8DE2007B9789 /* UserTaskViewController.swift */; };
+		50330223244F8E32007B9789 /* ItemListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50330222244F8E32007B9789 /* ItemListViewController.swift */; };
+		50330225244F8E64007B9789 /* SwapTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50330224244F8E64007B9789 /* SwapTaskViewController.swift */; };
+		50330227244F8E99007B9789 /* TaskDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50330226244F8E99007B9789 /* TaskDetailsViewController.swift */; };
+		50330229244F8ECE007B9789 /* CreateTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50330228244F8ECE007B9789 /* CreateTaskViewController.swift */; };
+		5033022B244F8F23007B9789 /* ItemDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5033022A244F8F23007B9789 /* ItemDetailsViewController.swift */; };
+		5033022D244F8F34007B9789 /* ItemCreateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5033022C244F8F34007B9789 /* ItemCreateViewController.swift */; };
+		5033022F244F9039007B9789 /* UsersListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5033022E244F9039007B9789 /* UsersListViewController.swift */; };
+		50330231244F9CF8007B9789 /* UserInchageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50330230244F9CF8007B9789 /* UserInchageViewController.swift */; };
+		50330233244FB735007B9789 /* OfflineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50330232244FB734007B9789 /* OfflineViewController.swift */; };
+		5033023C244FCC0E007B9789 /* APIHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50330239244FCC0E007B9789 /* APIHandler.swift */; };
+		5033023D244FCC0E007B9789 /* APIsStructure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5033023A244FCC0E007B9789 /* APIsStructure.swift */; };
+		5033023E244FCC0E007B9789 /* APIsRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5033023B244FCC0E007B9789 /* APIsRequest.swift */; };
+		50330240244FCC88007B9789 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5033023F244FCC88007B9789 /* Constants.swift */; };
+		503302452450A846007B9789 /* UserInfoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 503302432450A846007B9789 /* UserInfoTableViewCell.swift */; };
+		503302462450A847007B9789 /* UserInfoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 503302442450A846007B9789 /* UserInfoTableViewCell.xib */; };
+		50768BA224513851005D437E /* AccountTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50768BA124513851005D437E /* AccountTabViewController.swift */; };
+		50768BA424523D5A005D437E /* BugReportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50768BA324523D5A005D437E /* BugReportViewController.swift */; };
+		50F75D01244D10F3005E08C8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F75D00244D10F3005E08C8 /* AppDelegate.swift */; };
+		50F75D05244D10F3005E08C8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F75D04244D10F3005E08C8 /* ViewController.swift */; };
+		50F75D08244D10F3005E08C8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50F75D06244D10F3005E08C8 /* Main.storyboard */; };
+		50F75D0B244D10F3005E08C8 /* roomiesApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 50F75D09244D10F3005E08C8 /* roomiesApp.xcdatamodeld */; };
+		50F75D0D244D10F6005E08C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50F75D0C244D10F6005E08C8 /* Assets.xcassets */; };
+		50F75D10244D10F6005E08C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50F75D0E244D10F6005E08C8 /* LaunchScreen.storyboard */; };
+		50F75D18244D116B005E08C8 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 50F75D17244D116B005E08C8 /* Podfile */; };
+		50FC044A244D6206004CAA3A /* GroupActionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50FC0449244D6206004CAA3A /* GroupActionViewController.swift */; };
+		50FC044C244DE9F1004CAA3A /* App.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50FC044B244DE9F1004CAA3A /* App.storyboard */; };
+		50FC044E244DF254004CAA3A /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50FC044D244DF254004CAA3A /* LoginViewController.swift */; };
+		50FC0450244DF648004CAA3A /* MainRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50FC044F244DF648004CAA3A /* MainRootViewController.swift */; };
+		50FC0454244E1586004CAA3A /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50FC0453244E1585004CAA3A /* TabBarViewController.swift */; };
+		8873BD9892A1646544922779 /* Pods_roomiesApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35CDCE9BE38897797AFF6819 /* Pods_roomiesApp.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		35CDCE9BE38897797AFF6819 /* Pods_roomiesApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_roomiesApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		503301F3244E589B007B9789 /* GroupTaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupTaskViewController.swift; sourceTree = "<group>"; };
+		503301F7244E6476007B9789 /* GroupTaskTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupTaskTableViewCell.swift; sourceTree = "<group>"; };
+		503301F8244E6476007B9789 /* GroupTaskTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GroupTaskTableViewCell.xib; sourceTree = "<group>"; };
+		503301FE244E77F6007B9789 /* Singleton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Singleton.swift; sourceTree = "<group>"; };
+		503301FF244E77F6007B9789 /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		50330210244E78A1007B9789 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		50330213244EA509007B9789 /* UserProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileViewController.swift; sourceTree = "<group>"; };
+		50330215244EB25C007B9789 /* LoginNavigationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginNavigationViewController.swift; sourceTree = "<group>"; };
+		50330218244F452A007B9789 /* GroupInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupInfoViewController.swift; sourceTree = "<group>"; };
+		5033021A244F69FE007B9789 /* ItemInfoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemInfoTableViewCell.swift; sourceTree = "<group>"; };
+		5033021B244F69FE007B9789 /* ItemInfoTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ItemInfoTableViewCell.xib; sourceTree = "<group>"; };
+		50330220244F8DE2007B9789 /* UserTaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTaskViewController.swift; sourceTree = "<group>"; };
+		50330222244F8E32007B9789 /* ItemListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemListViewController.swift; sourceTree = "<group>"; };
+		50330224244F8E64007B9789 /* SwapTaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwapTaskViewController.swift; sourceTree = "<group>"; };
+		50330226244F8E99007B9789 /* TaskDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskDetailsViewController.swift; sourceTree = "<group>"; };
+		50330228244F8ECE007B9789 /* CreateTaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateTaskViewController.swift; sourceTree = "<group>"; };
+		5033022A244F8F23007B9789 /* ItemDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetailsViewController.swift; sourceTree = "<group>"; };
+		5033022C244F8F34007B9789 /* ItemCreateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCreateViewController.swift; sourceTree = "<group>"; };
+		5033022E244F9039007B9789 /* UsersListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersListViewController.swift; sourceTree = "<group>"; };
+		50330230244F9CF8007B9789 /* UserInchageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInchageViewController.swift; sourceTree = "<group>"; };
+		50330232244FB734007B9789 /* OfflineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OfflineViewController.swift; sourceTree = "<group>"; };
+		50330239244FCC0E007B9789 /* APIHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIHandler.swift; sourceTree = "<group>"; };
+		5033023A244FCC0E007B9789 /* APIsStructure.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIsStructure.swift; sourceTree = "<group>"; };
+		5033023B244FCC0E007B9789 /* APIsRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIsRequest.swift; sourceTree = "<group>"; };
+		5033023F244FCC88007B9789 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		503302432450A846007B9789 /* UserInfoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoTableViewCell.swift; sourceTree = "<group>"; };
+		503302442450A846007B9789 /* UserInfoTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserInfoTableViewCell.xib; sourceTree = "<group>"; };
+		50768BA124513851005D437E /* AccountTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountTabViewController.swift; sourceTree = "<group>"; };
+		50768BA324523D5A005D437E /* BugReportViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BugReportViewController.swift; sourceTree = "<group>"; };
+		50F75CFD244D10F3005E08C8 /* roomiesApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = roomiesApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		50F75D00244D10F3005E08C8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		50F75D04244D10F3005E08C8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		50F75D07244D10F3005E08C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		50F75D0A244D10F3005E08C8 /* roomiesApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = roomiesApp.xcdatamodel; sourceTree = "<group>"; };
+		50F75D0C244D10F6005E08C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		50F75D0F244D10F6005E08C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		50F75D11244D10F6005E08C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50F75D17244D116B005E08C8 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		50FC0449244D6206004CAA3A /* GroupActionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupActionViewController.swift; sourceTree = "<group>"; };
+		50FC044B244DE9F1004CAA3A /* App.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = App.storyboard; sourceTree = "<group>"; };
+		50FC044D244DF254004CAA3A /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		50FC044F244DF648004CAA3A /* MainRootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainRootViewController.swift; sourceTree = "<group>"; };
+		50FC0453244E1585004CAA3A /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		E9BB08B1490CEBD763343445 /* Pods-roomiesApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-roomiesApp.debug.xcconfig"; path = "Target Support Files/Pods-roomiesApp/Pods-roomiesApp.debug.xcconfig"; sourceTree = "<group>"; };
+		F30FD51855EDC4896465E7CC /* Pods-roomiesApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-roomiesApp.release.xcconfig"; path = "Target Support Files/Pods-roomiesApp/Pods-roomiesApp.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		50F75CFA244D10F3005E08C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8873BD9892A1646544922779 /* Pods_roomiesApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3E89F77D5116DC2D48062BF5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E9BB08B1490CEBD763343445 /* Pods-roomiesApp.debug.xcconfig */,
+				F30FD51855EDC4896465E7CC /* Pods-roomiesApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		503301FD244E77F6007B9789 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				503301FE244E77F6007B9789 /* Singleton.swift */,
+				503301FF244E77F6007B9789 /* Utils.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		5033020F244E783F007B9789 /* Login Journey */ = {
+			isa = PBXGroup;
+			children = (
+				50FC044F244DF648004CAA3A /* MainRootViewController.swift */,
+				50FC044D244DF254004CAA3A /* LoginViewController.swift */,
+				50330210244E78A1007B9789 /* SignUpViewController.swift */,
+				50FC0449244D6206004CAA3A /* GroupActionViewController.swift */,
+				50330215244EB25C007B9789 /* LoginNavigationViewController.swift */,
+			);
+			path = "Login Journey";
+			sourceTree = "<group>";
+		};
+		50330212244E78DA007B9789 /* App Journey */ = {
+			isa = PBXGroup;
+			children = (
+				50F75D04244D10F3005E08C8 /* ViewController.swift */,
+				503301F3244E589B007B9789 /* GroupTaskViewController.swift */,
+				50FC0453244E1585004CAA3A /* TabBarViewController.swift */,
+				503301F7244E6476007B9789 /* GroupTaskTableViewCell.swift */,
+				50330213244EA509007B9789 /* UserProfileViewController.swift */,
+				503301F8244E6476007B9789 /* GroupTaskTableViewCell.xib */,
+				5033021A244F69FE007B9789 /* ItemInfoTableViewCell.swift */,
+				5033021B244F69FE007B9789 /* ItemInfoTableViewCell.xib */,
+				50330218244F452A007B9789 /* GroupInfoViewController.swift */,
+				50330226244F8E99007B9789 /* TaskDetailsViewController.swift */,
+				50330230244F9CF8007B9789 /* UserInchageViewController.swift */,
+				50330220244F8DE2007B9789 /* UserTaskViewController.swift */,
+				50330228244F8ECE007B9789 /* CreateTaskViewController.swift */,
+				50330224244F8E64007B9789 /* SwapTaskViewController.swift */,
+				5033022A244F8F23007B9789 /* ItemDetailsViewController.swift */,
+				5033022C244F8F34007B9789 /* ItemCreateViewController.swift */,
+				50330222244F8E32007B9789 /* ItemListViewController.swift */,
+				5033022E244F9039007B9789 /* UsersListViewController.swift */,
+				503302432450A846007B9789 /* UserInfoTableViewCell.swift */,
+				503302442450A846007B9789 /* UserInfoTableViewCell.xib */,
+				50768BA124513851005D437E /* AccountTabViewController.swift */,
+				50768BA324523D5A005D437E /* BugReportViewController.swift */,
+			);
+			path = "App Journey";
+			sourceTree = "<group>";
+		};
+		50330235244FCBB5007B9789 /* API Manager */ = {
+			isa = PBXGroup;
+			children = (
+				50330239244FCC0E007B9789 /* APIHandler.swift */,
+				5033023B244FCC0E007B9789 /* APIsRequest.swift */,
+				5033023A244FCC0E007B9789 /* APIsStructure.swift */,
+				5033023F244FCC88007B9789 /* Constants.swift */,
+			);
+			path = "API Manager";
+			sourceTree = "<group>";
+		};
+		50F75CF4244D10F2005E08C8 = {
+			isa = PBXGroup;
+			children = (
+				50F75D17244D116B005E08C8 /* Podfile */,
+				50F75CFF244D10F3005E08C8 /* roomiesApp */,
+				50F75CFE244D10F3005E08C8 /* Products */,
+				3E89F77D5116DC2D48062BF5 /* Pods */,
+				632E140375C5D9C5D1B22C1E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		50F75CFE244D10F3005E08C8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				50F75CFD244D10F3005E08C8 /* roomiesApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		50F75CFF244D10F3005E08C8 /* roomiesApp */ = {
+			isa = PBXGroup;
+			children = (
+				50330235244FCBB5007B9789 /* API Manager */,
+				50330212244E78DA007B9789 /* App Journey */,
+				5033020F244E783F007B9789 /* Login Journey */,
+				503301FD244E77F6007B9789 /* Utils */,
+				50F75D00244D10F3005E08C8 /* AppDelegate.swift */,
+				50F75D06244D10F3005E08C8 /* Main.storyboard */,
+				50330232244FB734007B9789 /* OfflineViewController.swift */,
+				50FC044B244DE9F1004CAA3A /* App.storyboard */,
+				50F75D0C244D10F6005E08C8 /* Assets.xcassets */,
+				50F75D0E244D10F6005E08C8 /* LaunchScreen.storyboard */,
+				50F75D11244D10F6005E08C8 /* Info.plist */,
+				50F75D09244D10F3005E08C8 /* roomiesApp.xcdatamodeld */,
+			);
+			path = roomiesApp;
+			sourceTree = "<group>";
+		};
+		632E140375C5D9C5D1B22C1E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				35CDCE9BE38897797AFF6819 /* Pods_roomiesApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		50F75CFC244D10F3005E08C8 /* roomiesApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50F75D14244D10F6005E08C8 /* Build configuration list for PBXNativeTarget "roomiesApp" */;
+			buildPhases = (
+				CD3AA045C23CD3DBB9D00EE5 /* [CP] Check Pods Manifest.lock */,
+				50F75CF9244D10F3005E08C8 /* Sources */,
+				50F75CFA244D10F3005E08C8 /* Frameworks */,
+				50F75CFB244D10F3005E08C8 /* Resources */,
+				59FEF1D37CDDA62714A2D9DF /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = roomiesApp;
+			productName = roomiesApp;
+			productReference = 50F75CFD244D10F3005E08C8 /* roomiesApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		50F75CF5244D10F3005E08C8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "Rishi Jatania";
+				TargetAttributes = {
+					50F75CFC244D10F3005E08C8 = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 50F75CF8244D10F3005E08C8 /* Build configuration list for PBXProject "roomiesApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 50F75CF4244D10F2005E08C8;
+			productRefGroup = 50F75CFE244D10F3005E08C8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				50F75CFC244D10F3005E08C8 /* roomiesApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		50F75CFB244D10F3005E08C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				503302462450A847007B9789 /* UserInfoTableViewCell.xib in Resources */,
+				50F75D10244D10F6005E08C8 /* LaunchScreen.storyboard in Resources */,
+				50F75D0D244D10F6005E08C8 /* Assets.xcassets in Resources */,
+				503301FA244E6476007B9789 /* GroupTaskTableViewCell.xib in Resources */,
+				5033021D244F69FE007B9789 /* ItemInfoTableViewCell.xib in Resources */,
+				50F75D18244D116B005E08C8 /* Podfile in Resources */,
+				50F75D08244D10F3005E08C8 /* Main.storyboard in Resources */,
+				50FC044C244DE9F1004CAA3A /* App.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		59FEF1D37CDDA62714A2D9DF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-roomiesApp/Pods-roomiesApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-roomiesApp/Pods-roomiesApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-roomiesApp/Pods-roomiesApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CD3AA045C23CD3DBB9D00EE5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-roomiesApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		50F75CF9244D10F3005E08C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5033023D244FCC0E007B9789 /* APIsStructure.swift in Sources */,
+				50768BA424523D5A005D437E /* BugReportViewController.swift in Sources */,
+				50330240244FCC88007B9789 /* Constants.swift in Sources */,
+				5033023E244FCC0E007B9789 /* APIsRequest.swift in Sources */,
+				50FC0454244E1586004CAA3A /* TabBarViewController.swift in Sources */,
+				5033022B244F8F23007B9789 /* ItemDetailsViewController.swift in Sources */,
+				50330231244F9CF8007B9789 /* UserInchageViewController.swift in Sources */,
+				503302452450A846007B9789 /* UserInfoTableViewCell.swift in Sources */,
+				50330214244EA509007B9789 /* UserProfileViewController.swift in Sources */,
+				5033022D244F8F34007B9789 /* ItemCreateViewController.swift in Sources */,
+				5033022F244F9039007B9789 /* UsersListViewController.swift in Sources */,
+				5033023C244FCC0E007B9789 /* APIHandler.swift in Sources */,
+				50330200244E77F6007B9789 /* Singleton.swift in Sources */,
+				503301F4244E589B007B9789 /* GroupTaskViewController.swift in Sources */,
+				503301F9244E6476007B9789 /* GroupTaskTableViewCell.swift in Sources */,
+				50F75D05244D10F3005E08C8 /* ViewController.swift in Sources */,
+				50330229244F8ECE007B9789 /* CreateTaskViewController.swift in Sources */,
+				50330201244E77F6007B9789 /* Utils.swift in Sources */,
+				50FC044A244D6206004CAA3A /* GroupActionViewController.swift in Sources */,
+				50F75D01244D10F3005E08C8 /* AppDelegate.swift in Sources */,
+				50FC0450244DF648004CAA3A /* MainRootViewController.swift in Sources */,
+				50330227244F8E99007B9789 /* TaskDetailsViewController.swift in Sources */,
+				50330216244EB25C007B9789 /* LoginNavigationViewController.swift in Sources */,
+				50FC044E244DF254004CAA3A /* LoginViewController.swift in Sources */,
+				50330211244E78A1007B9789 /* SignUpViewController.swift in Sources */,
+				50330219244F452A007B9789 /* GroupInfoViewController.swift in Sources */,
+				50F75D0B244D10F3005E08C8 /* roomiesApp.xcdatamodeld in Sources */,
+				50768BA224513851005D437E /* AccountTabViewController.swift in Sources */,
+				5033021C244F69FE007B9789 /* ItemInfoTableViewCell.swift in Sources */,
+				50330223244F8E32007B9789 /* ItemListViewController.swift in Sources */,
+				50330221244F8DE2007B9789 /* UserTaskViewController.swift in Sources */,
+				50330233244FB735007B9789 /* OfflineViewController.swift in Sources */,
+				50330225244F8E64007B9789 /* SwapTaskViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		50F75D06244D10F3005E08C8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				50F75D07244D10F3005E08C8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		50F75D0E244D10F6005E08C8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				50F75D0F244D10F6005E08C8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		50F75D12244D10F6005E08C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		50F75D13244D10F6005E08C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		50F75D15244D10F6005E08C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9BB08B1490CEBD763343445 /* Pods-roomiesApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = roomiesApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.northeastern.swift.roomiesApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		50F75D16244D10F6005E08C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F30FD51855EDC4896465E7CC /* Pods-roomiesApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = roomiesApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.northeastern.swift.roomiesApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		50F75CF8244D10F3005E08C8 /* Build configuration list for PBXProject "roomiesApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50F75D12244D10F6005E08C8 /* Debug */,
+				50F75D13244D10F6005E08C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50F75D14244D10F6005E08C8 /* Build configuration list for PBXNativeTarget "roomiesApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50F75D15244D10F6005E08C8 /* Debug */,
+				50F75D16244D10F6005E08C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		50F75D09244D10F3005E08C8 /* roomiesApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				50F75D0A244D10F3005E08C8 /* roomiesApp.xcdatamodel */,
+			);
+			currentVersion = 50F75D0A244D10F3005E08C8 /* roomiesApp.xcdatamodel */;
+			path = roomiesApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 50F75CF5244D10F3005E08C8 /* Project object */;
+}
